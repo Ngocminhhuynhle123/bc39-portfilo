@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: -apple-system, 
+                 BlinkMacSystemFont, 
+                 "Segoe UI", 
+                 Roboto, 
+                 Oxygen-Sans, 
+                 Ubuntu, 
+                 Cantarell, 
+                 "Helvetica Neue", 
+                 sans-serif;
+    font-size: 16px;
+    
+ }
+/*  */
+#header{
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%) ;
+
+}
+#header .header-logo i{
+    color: #35a22c;
+    font-size: 2.5rem;
+    padding-right: 7px;
+}
+#header .header-logo span{
+    color: white;
+    font-size: 2rem;
+}
+#header .nav-item a{
+    margin-right: 0 0.8rem;
+    color: #fff !important;
+    font-weight: 400;
+}
+.menu .nav-item a::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    display: block;
+    background-color: #35a22c;
+    transition: all .5s;
+    
+}
+.menu .nav-item.active a::after,
+.menu .nav-item:hover a::after
+{
+    width: 100%;
+}
+.menu .nav-item.active a,
+.menu .nav-item:hover a{
+    color: #35a22c !important;
+}
+/*  */
+#carousel{
+
+}
+#carousel .carousel-item:nth-child(1),
+#carousel .carousel-item:nth-child(2),
+#carousel .carousel-item:nth-child(3){
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+#carousel .carousel-item:nth-child(1){
+    background-image: url(/asset/img/finland.jpg);
+}
+#carousel .carousel-item:nth-child(2){
+    background-image: url(/asset/img/mountains-1.jpg);
+   
+}
+#carousel .carousel-item:nth-child(3){
+    background-image: url(/asset/img/mountains.jpg);
+    
+}
+#carousel .carosel-thumb img{
+    width: 20%;
+    border-radius: 200px;
+    margin: 0 auto;
+}
+#carousel .carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carousel .carousel-indicators li{
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+}
+#carousel .carousel-indicators .active {
+    background-color: #35a22c;
+    opacity: 1;
+}
+
+/*  */
+#projetct .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #35a22c;
+    color: #fff
+}
+#projetct .nav-pills .nav-link{
+    border: 1px solid  #1a1d2d;
+    color: #1a1d2d;
+    margin: 0 5px;
+}
+#projetct .nav-pills{
+    justify-content: center;
+}
+#projetct .card {
+    border-radius:30px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
+    
+#projetct .card-body{
+    text-align: center;
+}
+#projetct .card-title{
+    transition: all .5s;
+}
+#projetct .card:hover .card-title{
+    color: #35a22c;
+}
+#projetct .card-body{
+    border: 1px solid transparent;
+    border-top: transparent;
+    transition: all .5s;
+    border-radius: 0 0 30px 30px;
+}
+#projetct .card:hover .card-body {
+    border:1px solid #35a22c ;
+    border-top: transparent;
+}
+/*  */
+#service{
+    background-image: url(/asset/img/3.jpg);
+    background: center cover fixed;
+    color: #fff;
+    text-align: center;
+    position: relative;
+
+}
+#service .container{
+    position: relative;
+}
+#service .overplay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color:rgb(7 10 12 / 72%) ;
+}
+#service .service-title  {
+    text-align: center;
+}
+
+#service .card{
+    background-color: #ffffff1a;
+}
+#service 
+#service 
+#service 
+#service 
+
+
+
+
+
